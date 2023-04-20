@@ -447,6 +447,45 @@ nav h1 {
   }
 }
 
+@media (max-width: 767px) {
+  @keyframes left {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-90%);
+    }
+    20% {
+      transform: translateX(-190%);
+    }
+    30% {
+      transform: translateX(-290%);
+    }
+    40% {
+      transform: translateX(-390%);
+    }
+    50% {
+      transform: translateX(-490%);
+    }
+    60% {
+      transform: translateX(-590%);
+    }
+    70% {
+      transform: translateX(-690%);
+    }
+    80% {
+      transform: translateX(-790%);
+    }
+    90% {
+      transform: translateX(-890%);
+    }
+    100% {
+      transform: translateX(-990%);
+    }
+  }
+}
+
+
 /* Partner */
 
 /* start contact */
